@@ -77,3 +77,59 @@ You could run unit tests with the help of IntelliJ. But it is also possible to r
 
 If you just want to build your code without running test. Please use `./gradlew build -x test
 `
+
+ArrayTest:
+1. should_resize_array()
+  a) What is the knowledge point of the test? Where is the offical document to the knowledge point?
+   - To be knowledgeable about the array.
+  b) Why the test failed at first?
+   - expected result is empty.
+  c) Why you corrected the test that way?
+   - That is the expected answer to the result.
+  d) Do you have further questions on this knowledge point?
+  
+CollectionsTest:
+1. should_go_through_an_iterator()
+  a) What is the knowledge point of the test? Where is the offical document to the knowledge point?
+   - To be knowledgeable about Iterator
+  b) Why the test failed at first?
+   - expected result is empty.
+  c) Why you corrected the test that way?
+   - That is the expected answer to the result.
+  d) Do you have further questions on this knowledge point?
+  
+2. should_create_a_sequence_without_putting_all_items_into_memory()
+  a) What is the knowledge point of the test? Where is the offical document to the knowledge point?
+   - To be knowledgeable about Iterator
+  b) Why the test failed at first?
+   - expected result is empty.
+  c) Why you corrected the test that way?
+   - That is the expected answer to the result.
+  d) Do you have further questions on this knowledge point?
+  
+3. should_predict_linked_list_operation_result()
+  a) What is the knowledge point of the test? Where is the offical document to the knowledge point?
+   - To be knowledgeable about linked list
+  b) Why the test failed at first?
+   - expected result is empty.
+  c) Why you corrected the test that way?
+   - That is the expected answer to the result.
+  d) Do you have further questions on this knowledge point?
+  
+4. should_generate_distinct_sequence_on_the_fly()
+  a) What is the knowledge point of the test? Where is the offical document to the knowledge point?
+   - To be knowledgeable Iterator and use of lambda expressions
+  b) Why the test failed at first?
+   - expected result is empty.
+  c) Why you corrected the test that way?
+   - That is the expected answer to the result.
+  d) Do you have further questions on this knowledge point?
+  
+5. should_reflects_back_to_original_list_for_sub_range()
+  a) What is the knowledge point of the test? Where is the offical document to the knowledge point?
+   - To be knowledgeable about the use of sublist and its usage (everything that you do to sublist will reflect to original list.)
+  b) Why the test failed at first?
+   - expected result is empty.
+  c) Why you corrected the test that way?
+   - That is the expected answer to the result.
+  d) Do you have further questions on this knowledge point?

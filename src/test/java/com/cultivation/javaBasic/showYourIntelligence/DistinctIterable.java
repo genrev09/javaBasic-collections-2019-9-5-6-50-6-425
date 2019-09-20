@@ -1,5 +1,6 @@
 package com.cultivation.javaBasic.showYourIntelligence;
 
+import com.cultivation.javaBasic.util.RandomCharacterIterable;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.*;
@@ -28,19 +29,28 @@ class DistinctIterator<E> implements Iterator<E> {
     // <--start
     @SuppressWarnings({"FieldCanBeLocal", "unused"})
     private final Iterator<E> iterator;
+    ArrayList<E> collection = new ArrayList<>();
+
 
     DistinctIterator(Iterator<E> iterator) {
-        this.iterator = iterator;
+//        this.iterator = iterator;
+        iterator.forEachRemaining(e -> {
+            if (!collection.contains(e))
+                collection.add(e);
+        });
+        this.iterator = collection.iterator();
     }
 
     @Override
     public boolean hasNext() {
-        throw new NotImplementedException();
+        return iterator.hasNext();
     }
 
     @Override
     public E next() {
-        throw new NotImplementedException();
+        return iterator.next();
     }
+
+
     // --end->
 }
